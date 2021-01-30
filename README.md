@@ -10,10 +10,11 @@ go build -o DuplicateFileFinder
 ./DuplicateFileFinder
 ```
 
-
+```
 Usage:
   main [flags]
 
 Flags:
   -h, --help   help for main
   -s, --save   save results as json
+```

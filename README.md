@@ -3,3 +3,9 @@
 
 **Duplicate Files Finder** is an open-source tool for find duplicate files in your storage.
 
+# How to use
+
+```
+go build -o DuplicateFileFinder
+./DuplicateFileFinder
+```

@@ -13,9 +13,9 @@ import (
 	"strconv"
 )
 
-func ReadFilePathes(paths []string) map[string][]string {
+func ReadFiles(pathList []string) map[string][]string {
 	var file = make(map[string][]string)
-	for _, path := range paths {
+	for _, path := range pathList {
 		err := filepath.Walk(path,
 			func(path string, info os.FileInfo, err error) error {
 
@@ -65,7 +65,7 @@ func HashFile(files map[string][]string) map[string][]string {
 }
 
 func findDuplicates(pathList []string) map[string][]string {
-	paths := ReadFilePathes(pathList)
+	paths := ReadFiles(pathList)
 	IgnoreUniques(paths)
 	paths = HashFile(paths)
 	IgnoreUniques(paths)
@@ -95,7 +95,7 @@ var rootCmd = &cobra.Command{
 
 		save, _ := cmd.Flags().GetBool("save")
 		if save {
-			err:=Write(results)
+			err := Write(results)
 			if err != nil {
 				fmt.Println("couldn't save to output.json ", save)
 

@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eddf189-ef9c-494c-ac59-bac3ced8e82e" name="Default Changelist" comment="" />
+    <list default="true" id="2eddf189-ef9c-494c-ac59-bac3ced8e82e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DuplicateFileFinder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.15.1/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1nnsZhfomyIxSNi4FwDWDCXOjTL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -28,6 +39,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -36,5 +50,13 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="541" y="274" key="#Go_Modules/0.23.1440.822@0.23.1440.822" timestamp="1612037340543" />
+    <state x="589" y="338" key="Github.ShareDialog" timestamp="1612037429035">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="589" y="338" key="Github.ShareDialog/0.23.1440.822@0.23.1440.822" timestamp="1612037429035" />
+    <state x="555" y="146" key="Github.UntrackedFilesDialog" timestamp="1612037440358">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="555" y="146" key="Github.UntrackedFilesDialog/0.23.1440.822@0.23.1440.822" timestamp="1612037440358" />
   </component>
 </project>

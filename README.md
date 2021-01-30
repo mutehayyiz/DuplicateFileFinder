@@ -1,1 +1,1 @@
-Duplicate Files Finder
+# Duplicate Files Finder
